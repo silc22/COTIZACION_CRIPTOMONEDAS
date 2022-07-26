@@ -31,7 +31,7 @@ const Heading = styled.h1`
   text-align: center;
   font-weight: 700 ;
   margin: 80px 0 50px 0;
-  font-size: 34px;
+  font-size: 30px;
   text-transform: capitalize;
 
   &::after{

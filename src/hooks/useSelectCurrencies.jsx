@@ -32,7 +32,7 @@ const useSelectCurrencies = (label, options) => {
                 onChange={e => setState(e.target.value)}
                 >
                     <option value="">
-                    -- Choose --
+                    -- Select --
                     </option>
                     {options.map(option => (
                         <option
