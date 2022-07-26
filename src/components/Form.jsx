@@ -29,7 +29,7 @@ const Form = ({setMoney}) =>{
     const [ error, setError ] = useState(false)
 
     const [ currencies, SelectCurrencies ] = useSelectCurrencies("Choose currency:", coins)
-    const [ cryptocurrencies, SelectCryptocurrencies ] = useSelectCurrencies("Choose the cryptocurrency:", cryptos)
+    const [ cryptocurrencies, SelectCryptocurrencies ] = useSelectCurrencies("Choose cryptocurrency:", cryptos)
 
 
     useEffect(()=>{
